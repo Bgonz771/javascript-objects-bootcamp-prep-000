@@ -41,10 +41,10 @@ function removeFromPlaylist(playlist, artistName){
   
   delete playlist[artistName];
 
-    return Playlist;
+    return playlist;
 }
   
-removeFromPlaylist(Playlist,"slowdive"); 
+removeFromPlaylist(playlist,"slowdive"); 
  
     
     
